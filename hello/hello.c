@@ -36,14 +36,51 @@ int main(void) {
 	x = x + 5; -> x += 5;
  単項演算子
  	++ --
-*/
+
 int main(void) {
 	int x;
-	x = 10 % 3;   /* 1 */
-	x += 3;   /* 4 */
-	x ++;   /* 5 */
+	x = 10 % 3;   // 1
+	x += 3;   // 4
+	x ++;   // 5
 
 	printf("%d\n", x);
 
 	return 0;
 }
+*/
+
+/* 
+第四回
+ 条件分岐：if
+ 	>=
+	<=
+	>
+	<
+	==
+	!=
+
+int main(void) {
+	int score = 80;
+
+	if(score >= 60) {
+		printf("OK!\n");
+	} else if(score >= 50) {
+		printf("so so...\n");
+	} else {
+		printf("NG!\n");
+	}
+
+	return 0;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
