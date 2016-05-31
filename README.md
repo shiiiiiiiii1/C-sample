@@ -2,7 +2,6 @@
 
 
 ## 第一回
-
 ```hello.c
 #include <stdio.h>   /* 便利な機能が詰まったものをインクルードする */
 int main(void) {
@@ -14,7 +13,6 @@ int main(void) {
 
 ## 第二回
 **データ型の主な種類**
-
 - int：整数 -> %d
 - float：実数 -> %f
 - char：１文字 -> %c
