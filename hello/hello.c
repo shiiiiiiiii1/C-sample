@@ -2,7 +2,6 @@
 
 /*
 第一回
- コメントアウト
 
 int main(void) {
 	printf("hello world\n");
@@ -12,10 +11,6 @@ int main(void) {
 
 /*
 第二回
- データ型の主な種類
-	int：整数 %d
-	float：実数 %f
-	char：1文字 %c
 
 int main(void) {
 	int x = 10;
@@ -29,13 +24,6 @@ int main(void) {
 
 /*
 第三回
- 演算子
-	+ - * /
-	%：余り
- 代入を伴う演算子
-	x = x + 5; -> x += 5;
- 単項演算子
- 	++ --
 
 int main(void) {
 	int x;
@@ -51,13 +39,6 @@ int main(void) {
 
 /* 
 第四回
- 条件分岐：if
- 	>=
-	<=
-	>
-	<
-	==
-	!=
 
 int main(void) {
 	int score = 80;
@@ -74,8 +55,26 @@ int main(void) {
 }
 */
 
-
-
+/*
+第五回
+*/
+int main(void) {
+	int rank = 2;
+	switch(rank) {
+		case 1:
+			printf("Gold!\n");
+			break;
+		case 2:
+			printf("Silver!\n");
+			break;
+		case 3:
+			printf("Bronze!\n");
+			break;
+		default:
+			printf("no medal...\n");
+			break;
+	}
+}
 
 
 
