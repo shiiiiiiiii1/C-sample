@@ -163,7 +163,7 @@ float getMax(float a, float b) {
 
 /*
 第十一回
-*/
+
 float getMax(float a, float b) {
 	return (a >= b) ? a : b;
 }
@@ -174,8 +174,137 @@ int main(void) {
 
 	return 0;
 }
+*/
 
+/*
+第十二回目
 
+void f(void) {
+  int a = 0;
+  a++;
+  printf("a:%d\n", a);
+}
+int main(void) {
+  f();
+  return 0;
+}
+*/
 
+/*
+第十三回
 
+void f(void) {
+  static int a = 0;
+  a++;
+  printf("a:%d\n", a);
+}
+int main(void) {
+  f();
+  f();
+  f();
+  return 0;
+}
+*/
 
+/*
+第十四回
+
+int main(void) {
+  int sales[3];
+
+  sales[0] = 200;
+  sales[1] = 400;
+  sales[2] = 300;
+
+  int sales2[] = {200, 400, 300};
+
+  printf("%d\n", sale[1]);
+  return 0;
+}
+*/
+
+/*
+第十五回
+
+int main(void) {
+  char s[] = "abc";
+
+  printf("%c\n", s[1]);
+  return 0;
+}
+*/
+
+/*
+第十六回
+
+int main(void) {
+  int a;
+  a = 10;
+
+  return 0;
+}
+*/
+
+/*
+第十七回
+
+int main(void) {
+  int a;
+  a = 10;
+
+  int *pa;
+  pa = &a;
+
+  printf("%d\n", *pa);
+
+  return 0;
+}
+*/
+
+/*
+第十九回
+
+void f(long a) {
+  a += 100;
+  printf("%ld\n", a);
+}
+int main(void) {
+  long a = 1000;
+  f(a);
+
+  return 0;
+}
+*/
+
+/*
+第二十回
+
+void f(long *pa) {
+  *pa += 100;
+  printf("%ld\n", *pa);
+}
+int main(void) {
+  long a = 1000;
+  f(&a);
+
+  return 0;
+}
+*/
+
+/*
+第二十二回
+*/
+void swap(int *pa, int *pb) {
+  int tmp;
+  tmp = *pa;
+  *pa = *pb;
+  *pb = tmp;
+}
+int main(void) {
+  int a = 5;
+  int b = 10;
+  swap(&a, &b);
+  printf("a:%d, b:%d\n",a, b);
+
+  return 0;
+}
